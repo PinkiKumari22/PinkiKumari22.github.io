@@ -1,5 +1,5 @@
-# Khush24Shah.github.io
+# PinkiKumari22.github.io
 
-Link to this Repository: https://github.com/Khush24Shah/Khush24Shah.github.io/
+Link to this Repository: https://github.com/PinkiKumari22/PinkiKumari22.github.io/
 
-Link to my personal Website: https://khush24shah.github.io/
+Link to my personal Website: https://PinkiKumari22.github.io/
