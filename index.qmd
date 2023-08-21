@@ -1,0 +1,28 @@
+---
+title: Pinki Kumari
+image: images/PinkiKumari.jpeg
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: envelope-at-fill
+      text: Email
+      href: mailto:kumaripinki@iitgn.ac.in
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/pinkikumari22/
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/PinkiKumari22
+    - icon: github
+      text: Github
+      href: https://github.com/PinkiKumari22
+    - icon: code-slash
+      text: LeetCode
+      href: https://leetcode.com/PINKIKUMARI22/
+---
+
+Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar.
+
+I am working under the supervision of [Dr. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on "Hashing Algorithms for efficient training of Large Language Models and applying Locality Sensitive Hashing on Neural Tangent Kernels (LSH on NTK)".
