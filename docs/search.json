@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Blogs",
+    "objectID": "ta.html",
+    "href": "ta.html",
+    "title": "Teaching Assistant",
     "section": "",
-    "text": "No matching items"
+    "text": "Computing (August 2023 - Present)\nDCC(Data Centric Comput) (January 2023 - May 2023)\nComputer Networks (August 2022 - December 2022)"
   },
   {
     "objectID": "index.html",
@@ -12,12 +12,5 @@
     "title": "Pinki Kumari",
     "section": "",
     "text": "Hi, I’m Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar.\nI am working under the supervision of Prof. Anirban Dasgupta on “Hashing Algorithms for efficient training of Large Language Models and applying Locality Sensitive Hashing on Neural Tangent Kernels (LSH on NTK)”.\nI did a 2-month Summer Internship at ThirdAI Corp., which trains Large Language Models on a single CPU instead of GPUs."
-  },
-  {
-    "objectID": "ta.html",
-    "href": "ta.html",
-    "title": "Teaching Assistant",
-    "section": "",
-    "text": "ES-211: Computing (August 2023 - Present)\nDCC(Data Centric Comput) (January 2023 - May 2023)\nCS: Computer Networks (August 2022 - December 2022)"
   }
 ]
