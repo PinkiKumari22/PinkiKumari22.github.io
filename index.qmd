@@ -1,6 +1,6 @@
 ---
 title: Pinki Kumari
-image: images/PinkiKumari.jpeg
+image: images/Kumari.jpeg
 about:
   template: trestles
   image-width: 15em
