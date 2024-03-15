@@ -23,8 +23,10 @@ about:
       href: https://leetcode.com/PINKIKUMARI22/
 ---
 
-Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar.
+Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar August 2022 - April 2024.
+SDE @Texas Instruments , joining by 5th August 2024
 
 I am working under the supervision of [Prof. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on "Hashing Algorithms for efficient training of Large Language Models and applying Locality Sensitive Hashing on Neural Tangent Kernels (LSH on NTK)".
 
-I did a 2-month Summer Internship at [ThirdAI Corp.](https://www.thirdai.com/), which trains Large Language Models on a single CPU instead of GPUs.
+I did a 2-month Summer Internship at [ThirdAI Corp.](https://www.thirdai.com/), which trains Large Language Models on a single CPU instead of GPUs. 
+
