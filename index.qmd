@@ -21,6 +21,9 @@ about:
     - icon: code-slash
       text: LeetCode
       href: https://leetcode.com/PINKIKUMARI22/
+    - icon: kaggle
+      text: Kaggle
+      href: https://www.kaggle.com/pinkikumariiitgn
 ---
 
 Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar August 2022 - April 2024.
