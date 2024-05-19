@@ -26,7 +26,7 @@ about:
       href: https://www.kaggle.com/pinkikumariiitgn
 ---
 
-Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar August 2022 - April 2024.
+Hi, I'm Pinki Kumari, pursuing M.Tech. In Computer Science and Engineering at IIT Gandhinagar August 2022 - May 2024.
 SDE @Texas Instruments , joining by 5th August 2024
 
 I am working under the supervision of [Prof. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on "Automatic Speech Recognition(ASR) using Neural Tangent Kernels(NTKs)".
