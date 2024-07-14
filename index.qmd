@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope-at-fill
       text: Email
-      href: mailto:kumaripinki@iitgn.ac.in
+      href: mailto:kumaripinki@alumni.iitgn.ac.in
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/pinkikumari22/
