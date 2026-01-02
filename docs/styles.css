@@ -1,56 +1,47 @@
-/* ===== Moving dark wallpaper + dark glass content (Quarto / GitHub Pages) ===== */
+/* ===== Dynamic wallpaper (image) + dark glass content ===== */
 
-/* Wallpaper palette */
 :root{
-  --bg-a: #05070f;
-  --bg-b: #071827;
-  --bg-c: #0a2a3a;
-  --bg-d: #1a0b2e;
-
   --text: #e8eef8;
-  --muted: rgba(232, 238, 248, 0.72);
+  --muted: rgba(232, 238, 248, 0.78);
 
-  --card: rgba(10, 14, 22, 0.74);
-  --card-border: rgba(255, 255, 255, 0.10);
+  --card: rgba(10, 14, 22, 0.72);
+  --card-border: rgba(255, 255, 255, 0.12);
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
 }
 
-/* Base page */
-html, body {
-  height: 100%;
-}
+html, body { height: 100%; }
 
 body{
   margin: 0;
   color: var(--text);
-
-  /* keep content readable while wallpaper sits behind */
+  background: #05070f; /* fallback */
   position: relative;
   overflow-x: hidden;
-
-  /* fallback color */
-  background: #05070f;
 }
 
-/* --- Animated wallpaper layer (no JS) --- */
+/* --- Wallpaper image layer (the ML agent + system design image) --- */
 body::before{
   content: "";
   position: fixed;
   inset: 0;
   z-index: -2;
 
-  background:
-    radial-gradient(1000px 600px at 20% 10%, rgba(80, 160, 255, 0.18), transparent 60%),
-    radial-gradient(900px 700px at 80% 30%, rgba(180, 80, 255, 0.16), transparent 55%),
-    radial-gradient(800px 700px at 55% 85%, rgba(0, 255, 200, 0.10), transparent 55%),
-    linear-gradient(120deg, var(--bg-a), var(--bg-b), var(--bg-c), var(--bg-d));
+  /* IMPORTANT: update filename if yours differs */
+  background-image:
+    linear-gradient(rgba(5,7,15,0.55), rgba(5,7,15,0.55)),
+    url("images/wallpaper-ml-sysdesign.png");
 
-  background-size: 140% 140%;
-  animation: wallpaperMove 24s ease-in-out infinite;
-  transform: translateZ(0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* soft zoom + drift */
+  transform: scale(1.06);
+  animation: wallpaperDrift 28s ease-in-out infinite;
+  will-change: transform, filter;
 }
 
-/* Optional subtle “grain/noise” overlay (still pure CSS) */
+/* Extra subtle depth: moving light haze overlay */
 body::after{
   content: "";
   position: fixed;
@@ -58,32 +49,35 @@ body::after{
   z-index: -1;
   pointer-events: none;
 
-  /* simple noise-ish pattern */
-  background-image:
-    repeating-linear-gradient(0deg, rgba(255,255,255,0.02), rgba(255,255,255,0.02) 1px, transparent 1px, transparent 3px),
-    repeating-linear-gradient(90deg, rgba(255,255,255,0.015), rgba(255,255,255,0.015) 1px, transparent 1px, transparent 4px);
+  background:
+    radial-gradient(900px 600px at 20% 20%, rgba(120, 190, 255, 0.12), transparent 60%),
+    radial-gradient(900px 600px at 80% 30%, rgba(190, 120, 255, 0.10), transparent 60%),
+    radial-gradient(900px 700px at 55% 85%, rgba(0, 255, 200, 0.08), transparent 60%);
 
-  opacity: 0.35;
-  mix-blend-mode: overlay;
+  animation: hazeMove 22s ease-in-out infinite;
+  mix-blend-mode: screen;
+  opacity: 0.85;
 }
 
-@keyframes wallpaperMove{
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+@keyframes wallpaperDrift{
+  0%   { transform: scale(1.06) translate3d(0px, 0px, 0); filter: brightness(0.95) saturate(1.05); }
+  50%  { transform: scale(1.10) translate3d(-18px, -10px, 0); filter: brightness(1.02) saturate(1.12); }
+  100% { transform: scale(1.06) translate3d(0px, 0px, 0); filter: brightness(0.95) saturate(1.05); }
 }
 
-/* Accessibility: respect reduced motion */
+@keyframes hazeMove{
+  0%   { transform: translate3d(0px, 0px, 0); }
+  50%  { transform: translate3d(20px, -14px, 0); }
+  100% { transform: translate3d(0px, 0px, 0); }
+}
+
+/* Accessibility */
 @media (prefers-reduced-motion: reduce){
-  body::before { animation: none; }
+  body::before, body::after { animation: none; }
 }
 
-/* ===== Content styling (multi-section) ===== */
-
-/* Main article container / cards */
-main,
-.quarto-about-trestles .about-contents > main,
-.content {
+/* ===== Make your main content dark-glass so it pops ===== */
+main{
   background: var(--card);
   border: 1px solid var(--card-border);
   border-radius: 18px;
@@ -95,7 +89,7 @@ main,
   margin-bottom: 2rem;
 }
 
-/* Headings and text inside */
+/* Text */
 h1, h2, h3, h4, h5, h6 { color: var(--text); }
 p, li { color: var(--muted); }
 
@@ -103,26 +97,25 @@ p, li { color: var(--muted); }
 a { color: rgba(140, 200, 255, 0.95); }
 a:hover { color: rgba(180, 120, 255, 0.95); }
 
-/* About header text (Quarto trestles) */
+/* Quarto "trestles" about section text */
 .about-contents h1,
 .about-contents p { color: var(--text); }
 
-/* About image border for dark bg */
-.about-image.round {
-  border: 2px solid rgba(255,255,255,0.22);
-  box-shadow: 0 12px 28px rgba(0,0,0,0.55);
-}
-
-/* Navbar tweaks (Quarto bootstrap navbar) */
-.navbar, #quarto-header {
+/* Navbar (Quarto) */
+.navbar, #quarto-header{
   background: rgba(5, 7, 15, 0.65) !important;
   border-bottom: 1px solid rgba(255,255,255,0.10);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
-.navbar .navbar-brand, .navbar .nav-link { color: rgba(232,238,248,0.92) !important; }
+.navbar .navbar-brand,
+.navbar .nav-link { color: rgba(232,238,248,0.92) !important; }
+
 .navbar .nav-link:hover { color: #ffffff !important; }
 
-/* Section spacing */
-section.level2 { margin-top: 1.4rem; }
+/* Nice profile image on dark bg */
+.about-image.round{
+  border: 2px solid rgba(255,255,255,0.22);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.55);
+}
