@@ -1,0 +1,11 @@
+## Projects
+
+- **Automatic Speech Recognition (ASR) using Neural Tangent Kernels (NTKs)** — ASR on Amharic audio using NTKs under the guidance of Prof. Anirban Dasgupta.  
+  [Repository](https://github.com/PinkiKumari22/MTech_Thesis_IITGN)
+- **Comprehensive NLP Analysis and Language Modeling** — Data scraping from subreddits, sentiment analysis with Hugging Face models, custom n-gram language models, and BERT pretraining/fine-tuning for classification and QA.  
+  [Repositories](https://github.com/orgs/Masters-Of-NLP/repositories)
+- **Online Maintenance Complaint Portal** — Website for IITGN with improved UX, authentication, and hardened security.  
+  [Repository](https://github.com/PinkiKumari22/Mainitainance_portal-IITGN)
+- **Machine Learning Projects** — spaCy NER for legal documents, a PyPI library for customized decision trees, and a Streamlit app visualizing cross-covariance via 3-sigma ellipse plots.  
+  [NER](https://github.com/PinkiKumari22/Smart_sense_legal_challenge) | [Decision Tree Library](https://github.com/PinkiKumari22/customised_decision_tree-0.1) | [PyPI](https://pypi.org/project/customized-decision-tree-library)
+- **Contact List Search (B.Tech Project)** — Web app with contact CRUD and autocomplete for real-time suggestions.
