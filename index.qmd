@@ -28,7 +28,7 @@ about:
 
 Hi, I'm Pinki Kumari. I'm a Software Development Engineer at Texas Instruments, where I build and maintain enterprise manufacturing and quality systems across backend and frontend services. I earned my M.Tech. in Computer Science and Engineering from IIT Gandhinagar (2022–2024) and work across Java, Spring Boot, React, and SQL, with hands-on experience in CI/CD, production support, and infrastructure operations.
 
-I work under the supervision of [Prof. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on "Automatic Speech Recognition (ASR) using Neural Tangent Kernels (NTKs)." I previously completed a two-month internship at [ThirdAI Corp.](https://www.thirdai.com/) focused on training and evaluation pipelines for Large Language Models on CPU.
+I worked under the supervision of [Prof. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on "Automatic Speech Recognition (ASR) using Neural Tangent Kernels (NTKs)." I previously completed a two-month internship at [ThirdAI Corp.](https://www.thirdai.com/) focused on training and evaluation pipelines for Large Language Models on CPU.
 
 ## Experience
 
@@ -37,26 +37,12 @@ I work under the supervision of [Prof. Anirban Dasgupta](https://sites.google.co
 - **Summer Intern, ThirdAI Corp.** *(Hybrid — Jun–Jul 2023)*  
   Used ThirdAI’s Universal Deep Transformer (UDT) to pre-train, train, and fine-tune LLMs on CPUs and added evaluation pipelines for models such as BERT, LLaMA, and BOLT.
 
-## Teaching Assistance
-
-See detailed teaching assistantships on the [TA page](ta.qmd). Highlights include Software Engineering & Testing (Jan–May 2024), Computing/ES112 (Aug–Dec 2023), and Data-Centric Computing (Jan–Jul 2023).
 
 ## Education
 
 - **M.Tech., Computer Science & Engineering — IIT Gandhinagar (2022–2024)** — CPI: 8.0
 - **B.Tech., Computer Science & Engineering — VGI Microsoft, Greater Noida (AKTU) (2016–2020)** — CPI: 8.33
 
-## Projects
-
-- **Automatic Speech Recognition (ASR) using Neural Tangent Kernels (NTKs)** — ASR on Amharic audio using NTKs under the guidance of Prof. Anirban Dasgupta.  
-  [Repository](https://github.com/PinkiKumari22/MTech_Thesis_IITGN)
-- **Comprehensive NLP Analysis and Language Modeling** — Data scraping from subreddits, sentiment analysis with Hugging Face models, custom n-gram language models, and BERT pretraining/fine-tuning for classification and QA.  
-  [Repositories](https://github.com/orgs/Masters-Of-NLP/repositories)
-- **Online Maintenance Complaint Portal** — Website for IITGN with improved UX, authentication, and hardened security.  
-  [Repository](https://github.com/PinkiKumari22/Mainitainance_portal-IITGN)
-- **Machine Learning Projects** — spaCy NER for legal documents, a PyPI library for customized decision trees, and a Streamlit app visualizing cross-covariance via 3-sigma ellipse plots.  
-  [NER](https://github.com/PinkiKumari22/Smart_sense_legal_challenge) | [Decision Tree Library](https://github.com/PinkiKumari22/customised_decision_tree-0.1) | [PyPI](https://pypi.org/project/customized-decision-tree-library)
-- **Contact List Search (B.Tech Project)** — Web app with contact CRUD and autocomplete for real-time suggestions.
 
 ## Skills & Coursework
 
@@ -67,7 +53,3 @@ See detailed teaching assistantships on the [TA page](ta.qmd). Highlights includ
 - **Software Engineering:** Debugging, Testing, CI/CD, Release Management, Production Support
 - **Coursework:** Data Structures & Algorithms, Databases, Computer Systems, AI, ML, Deep Learning, NLP, Automatic Speech Recognition
 
-## Achievements
-
-- Qualified GATE (CS) twice (2021, 2022)
-- Solved 350+ LeetCode questions (contest rank 1447/461,271) plus 210+ CodeChef problems and multiple ML problems on Kaggle.
