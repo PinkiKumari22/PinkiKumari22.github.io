@@ -2,6 +2,8 @@
 title: Teaching Assistant
 ---
 
-* Computing (August 2023 - Present)
-* DCC(Data Centric Comput) (January 2023 - May 2023)
-* Computer Networks (August 2022 - December 2022)
+- **Software Engineering & Testing (Jan–May 2024)** — Assisted with course delivery and evaluation.
+- **Computing (ES112) (Aug–Dec 2023)** — Designed and conducted lab tasks; graded assignments.
+- **Aarohan (FP601) (Jul 2023)** — Managed orientation for 450+ students with a team of 25 TAs; contributed on the backend team of five.
+- **Data-Centric Computing (Jan–Jul 2023)** — Led labs and tutorials on ML, EDA, and algorithms.
+- **Computer Networks (CS433) (Aug–Nov 2022)** — Handled a class of 75+ students, conducted quizzes, graded assignments, and assessed final project presentations.
