@@ -25,6 +25,13 @@ about:
       text: Kaggle
       href: https://www.kaggle.com/pinkikumariiitgn
 ---
+<div class="hero-intro">
+  <div class="hero-badges">
+    <span class="chip">SDE @ Texas Instruments</span>
+    <span class="chip">Java • Spring Boot</span>
+    <span class="chip">React • SQL</span>
+    <span class="chip">ML / ASR</span>
+  </div>
 
 Hi, I'm Pinki Kumari — a Software Development Engineer at Texas Instruments building enterprise manufacturing and quality platforms across backend and frontend services. I earned an M.Tech. in Computer Science from IIT Gandhinagar (2022–2024) and work primarily with Java, Spring Boot, React, and SQL alongside CI/CD, production support, and infrastructure operations.
 
