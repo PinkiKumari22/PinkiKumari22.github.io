@@ -124,3 +124,61 @@ a:hover { color: rgba(180, 120, 255, 0.95); }
   border: 2px solid rgba(255,255,255,0.22);
   box-shadow: 0 12px 28px rgba(0,0,0,0.55);
 }
+
+.hero-intro{
+  position: relative;
+  padding: 1.4rem 1.4rem 1.2rem;
+  margin-bottom: 1.4rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.06),
+    rgba(10,14,22,0.72)
+  );
+
+  box-shadow: 0 18px 40px rgba(0,0,0,0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+/* Hero glow */
+.hero-intro::before{
+  content:"";
+  position:absolute;
+  left:-20%;
+  top:-60%;
+  width:140%;
+  height:140%;
+  background:
+    radial-gradient(circle at 20% 25%, rgba(120,190,255,0.18), transparent 55%),
+    radial-gradient(circle at 80% 30%, rgba(190,120,255,0.16), transparent 55%),
+    radial-gradient(circle at 55% 80%, rgba(0,255,200,0.10), transparent 60%);
+  filter: blur(2px);
+  z-index: 0;
+}
+
+/* Keep content above glow */
+.hero-intro > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* ---------- Hero badges ---------- */
+.hero-badges{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: .9rem;
+}
+
+.chip{
+  font-size: .85rem;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(10,14,22,0.45);
+  color: rgba(232,238,248,0.90);
+}
