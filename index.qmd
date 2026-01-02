@@ -30,23 +30,3 @@ Hi, I'm Pinki Kumari — a Software Development Engineer at Texas Instruments bu
 
 I previously collaborated with [Prof. Anirban Dasgupta](https://sites.google.com/site/anirbandasgupta) on Automatic Speech Recognition using Neural Tangent Kernels and spent a summer at [ThirdAI Corp.](https://www.thirdai.com/) refining CPU-based training and evaluation pipelines for LLMs.
 
-## Experience
-
-- **Software Development Engineer, Texas Instruments** *(Bengaluru, India — Aug 2024–Present)*  
-  Building and sustaining manufacturing and quality systems across services and data layers; resolving production issues; supporting releases, operations, and security upgrades.
-- **Summer Intern, ThirdAI Corp.** *(Hybrid — Jun–Jul 2023)*  
-  Trained and evaluated LLMs (BERT, LLaMA, BOLT) on CPUs using the Universal Deep Transformer, adding repeatable pipelines for model benchmarking.
-
-## Education
-
-- **M.Tech., Computer Science & Engineering — IIT Gandhinagar (2022–2024)** — CPI: 8.0
-- **B.Tech., Computer Science & Engineering — VGI Microsoft, Greater Noida (AKTU) (2016–2020)** — CPI: 8.33
-
-## Skills & Coursework
-
-- **Languages:** Java, Python, SQL, JavaScript, C
-- **Backend & Frontend:** Spring Boot, REST APIs, React, Flask
-- **Data & Systems:** Relational databases, SQL optimization, workflow-driven systems
-- **Tools:** Git, Jenkins, Linux, OKD (OpenShift), Mendix, VSCode
-- **Delivery:** Debugging, testing, CI/CD, release management, production support
-- **Coursework:** Data Structures & Algorithms, Databases, Systems, AI/ML, Deep Learning, NLP, ASR
