@@ -2,6 +2,8 @@
 title: Teaching Assistant
 ---
 
+## Teaching Assistantships
+
 - **Software Engineering & Testing (Jan–May 2024)** — Assisted with course delivery and evaluation.
 - **Computing (ES112) (Aug–Dec 2023)** — Designed and conducted lab tasks; graded assignments.
 - **Aarohan (FP601) (Jul 2023)** — Managed orientation for 450+ students with a team of 25 TAs; contributed on the backend team of five.
