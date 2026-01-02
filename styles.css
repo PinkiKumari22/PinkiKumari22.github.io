@@ -20,25 +20,30 @@ body{
 }
 
 /* --- Wallpaper image layer (the ML agent + system design image) --- */
+/* moving wallpaper */
 body::before{
-  content: "";
+  content:"";
   position: fixed;
   inset: 0;
   z-index: -2;
 
-  /* IMPORTANT: update filename if yours differs */
   background-image:
     linear-gradient(rgba(5,7,15,0.55), rgba(5,7,15,0.55)),
     url("images/wallpaper-ml-sysdesign.png");
-
-  background-size: cover;
-  background-position: center;
+  background-size: 115% 115%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 
-  /* soft zoom + drift */
-  transform: scale(1.06);
-  animation: wallpaperDrift 28s ease-in-out infinite;
+  animation: cinematicMove 26s ease-in-out infinite;
   will-change: transform, filter;
+  transform-origin: center;
+}
+
+@keyframes cinematicMove{
+  0%   { transform: scale(1.02) translate3d(0,0,0);     filter: brightness(0.92) saturate(1.05); }
+  35%  { transform: scale(1.08) translate3d(-18px,-8px,0); filter: brightness(1.02) saturate(1.12); }
+  70%  { transform: scale(1.06) translate3d(16px,-6px,0);  filter: brightness(0.98) saturate(1.10); }
+  100% { transform: scale(1.02) translate3d(0,0,0);     filter: brightness(0.92) saturate(1.05); }
 }
 
 /* Extra subtle depth: moving light haze overlay */
