@@ -1,3 +1,7 @@
+---
+title: Projects
+---
+
 ## Projects
 
 - **Automatic Speech Recognition (ASR) using Neural Tangent Kernels (NTKs)** — ASR on Amharic audio using NTKs under the guidance of Prof. Anirban Dasgupta.  
